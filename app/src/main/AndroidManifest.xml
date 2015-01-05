@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.herong.android.eshopping" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_normal"
+        android:label="@string/app_name"
+        android:theme="@style/BaseTheme" >
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/title_activity_index" >
+        </activity>
+        <activity
+            android:name=".MainNavActivity"
+            android:label="@string/title_activity_main_nav"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainNavTabs.NavFavoritesActivity"
+            android:label="@string/title_activity_nav_favorites" >
+        </activity>
+        <activity
+            android:name=".mainNavTabs.NavShoppingCartActivity"
+            android:label="@string/title_activity_nav_shopping_cart" >
+        </activity>
+        <activity
+            android:name=".mainNavTabs.NavMineActivity"
+            android:label="@string/title_activity_nav_mine" >
+        </activity>
+        <activity
+            android:name=".ActBarActivity"
+            android:label="@string/title_activity_action_bar"
+            android:logo="@drawable/ic_action_back">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EShopping</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_nav">MainNavActivity</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_favorites">附近店铺</string>
+    <string name="nav_shopping_cart">购物车</string>
+    <string name="nav_mine">我的</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_nav_favorites">NavFavoritesActivity</string>
+    <string name="title_activity_nav_shopping_cart">NavShoppingCartActivity</string>
+    <string name="title_activity_nav_mine">NavMineActivity</string>
+    <string name="menu_search">搜索</string>
+    <string name="title_activity_action_bar">返回</string>
+
+    <color name="base_color">#dd4814</color>
+    <color name="normal_color">#666666</color>
+    <color name="nav_bar_color">#E6E6E6</color>
+    <color name="bg_color">#FFF</color>
+    <color name="font_color">#666666</color>
+    <color name="base_font_color">#FFF</color>
+
+</resources>
